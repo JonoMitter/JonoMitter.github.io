@@ -1,0 +1,47 @@
+html {
+    background-color: rgb(41, 41, 41);
+    color: white;
+    text-align: center;
+}
+
+section{
+    border: 3px solid white;
+}
+
+.container {
+    text-align: center;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+/* .experience--container {
+    text-align: center;
+    margin: 0 auto;
+    width: fit-content;
+} */
+
+.experience--heading {
+    text-align: left;
+}
+
+.experience--company {
+    font-weight: normal;
+    font-style: italic;
+}
+
+.volunteering--container{
+    background-color: grey;
+    border-radius: 20px;
+    padding: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.contact--link{
+    text-decoration: none;
+    color: rgb(246, 230, 255);
+}
+
+.contact--link:hover{
+    color: rgb(214, 159, 247);
+}
