@@ -6,6 +6,8 @@ import Volunteering from './components/Volunteering';
 import './styles/style.css'
 
 function App() {
+  document.title="Jonathon Mitterbacher";
+
   return (
     <div className="App">
       <Splash />
