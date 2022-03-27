@@ -1,8 +1,10 @@
 function Splash() {
   return (
-    <section>
-      <h1>Jonathon Mitterbacher</h1>
-      <h2><b>Software Engineer</b></h2>
+    <section className="splash--section">
+      <div className="container splash--container">
+        <h1>Jonathon Mitterbacher</h1>
+        <h2>Software Engineer|</h2>
+      </div>
     </section>
   );
 }
