@@ -7,6 +7,48 @@ html {
 section {
     /* Temporary for testing */
     border: 1px solid rgb(30, 255, 0);
+    height: 100vh;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 100%; */
+}
+
+img {
+    /* width: 200px; */
+    height: 100px;
+    /* width: 100%; */
+    margin: auto;
+    float: left;
+}
+
+.img-container {
+    margin: auto 0;
+    width: 80%;
+}
+
+.flexbox--center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 100%;
+}
+
+h1 {
+    font-size: 3.5em;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1.5em;
 }
 
 .container {
@@ -15,17 +57,26 @@ section {
     width: fit-content;
 }
 
+.master-div {
+    width: fit-content;
+}
+
+.experience--container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 .splash--section {
-    display:flex;
-    height: 100vh;
+    display: flex;
+
     align-items: center;
 }
 
-.splash--container{
+.splash--container {
     text-align: left;
 }
 
-.project--cols{
+.project--cols {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -40,11 +91,14 @@ section {
 }
 
 .volunteering--container {
+    display:grid;
+    grid-template-columns: 1fr 3fr;
     background-color: rgba(94, 94, 94, 0.5);
     border-radius: 20px;
     padding: 10px;
     margin-top: 5px;
     margin-bottom: 5px;
+    width: 100%;
 }
 
 .contact--link {
