@@ -1,0 +1,23 @@
+:root {
+    --main-bg-color: #292929;
+    --main-text-color: #fff;
+}
+
+html{
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    /* background-color: var(--main-bg-color);
+    color: var(--main-text-color) */
+    outline: solid 1px green;
+}
+
+h1, h2{
+    text-align: center;
+}
